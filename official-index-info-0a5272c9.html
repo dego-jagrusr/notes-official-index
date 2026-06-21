@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>爱游戏 · 日常查询与对照阅读</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f8f9fb;
+      font-family: "Inter", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.75;
+      color: #1b1e24;
+      padding: 2.5rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .page-container {
+      max-width: 720px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    /* 极简标题层级 */
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 550;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.25rem;
+      color: #0b0d11;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      margin: 2.2rem 0 0.8rem 0;
+      border-bottom: 2px solid #e2e6ed;
+      padding-bottom: 0.3rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin: 1.6rem 0 0.4rem 0;
+      color: #2a2f38;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1rem;
+    }
+
+    /* 引述 / 提示卡 */
+    .insight-block {
+      background: #f1f3f6;
+      border-left: 4px solid #3f4a5b;
+      padding: 1rem 1.4rem;
+      margin: 1.8rem 0;
+      border-radius: 0 8px 8px 0;
+      font-size: 0.98rem;
+    }
+
+    .insight-block p {
+      margin-bottom: 0.3rem;
+    }
+
+    .insight-block .insight-label {
+      font-weight: 550;
+      letter-spacing: 0.02em;
+      color: #2d3748;
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+
+    /* 温柔链接 */
+    a {
+      color: #1f3a6b;
+      text-decoration: none;
+      border-bottom: 1px dotted #b0bbcf;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    a:hover {
+      border-bottom: 1px solid #1f3a6b;
+      color: #0b1d3a;
+    }
+
+    /* 无装饰列表用于 FAQ 风格 */
+    .faq-group {
+      margin: 1.2rem 0 2rem 0;
+    }
+
+    .faq-item {
+      margin-bottom: 1rem;
+      padding-left: 0.2rem;
+    }
+
+    .faq-item strong {
+      display: inline-block;
+      font-weight: 530;
+      color: #1e293b;
+      margin-right: 0.5rem;
+    }
+
+    .faq-item .q-marker {
+      color: #566b84;
+      font-weight: 450;
+      margin-right: 0.3rem;
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background: #dde1e9;
+      margin: 2.5rem 0 1.5rem 0;
+    }
+
+    .signature {
+      font-size: 0.9rem;
+      color: #626b7b;
+      margin-top: 2.2rem;
+      border-top: 1px solid #e2e6ed;
+      padding-top: 1.2rem;
+    }
+
+    /* 响应式微调 */
+    @media (max-width: 520px) {
+      body {
+        padding: 1.8rem 1rem;
+      }
+      h1 {
+        font-size: 1.9rem;
+      }
+      h2 {
+        font-size: 1.35rem;
+      }
+      .insight-block {
+        padding: 0.8rem 1rem;
+      }
+    }
+
+    /* 极简装饰，不干扰留白 */
+    .hero-soft {
+      margin-bottom: 2rem;
+    }
+
+    .hero-soft .meta-line {
+      font-size: 0.85rem;
+      color: #6d788a;
+      letter-spacing: 0.3px;
+      margin-top: 0.2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-container">
+
+    <!-- 博客式标题 + 导语 -->
+    <div class="hero-soft">
+      <h1>从查询到对照 · 爱游戏</h1>
+      <div class="meta-line">日常翻阅 · 延伸阅读 · 信息聚合</div>
+    </div>
+
+    <p>
+      不论是对游戏机制的好奇，还是想对比不同作品的设计思路，许多时候我们都需要一个安静的起点。
+      这个页面围绕着<strong>日常查询、对照和延伸阅读</strong>展开，没有繁杂的导航，只有几段笔记式的正文和一处引用提示。
+      如果你也常把浏览当作一种学习方式，或许下面的内容能陪你度过一段细碎的阅读时间。
+    </p>
+
+    <!-- 第一段正文：从查询习惯切入 -->
+    <h2>查询不是搜索，是梳理</h2>
+    <p>
+      打开一个页面之前，我们往往已经带了问题。查询行为本身就是一个筛选、比对、确认的过程。
+      在信息流越来越密集的今天，保持清晰的查询路径反而成了一种稀缺能力。
+      我习惯先把模糊的念头转化成两三个关键词，然后找到一处可信的、安静的页面慢慢看。
+      比如，你想了解某款作品的开发背景、版本差异或社区讨论，不妨直接去
+      <a href="https://official-index-i-game.com.cn">爱游戏</a>
+      浏览条目式的整理。那里没有算法推荐，只有结构化的索引，很适合作为对照阅读的起点。
+    </p>
+
+    <h3>对照的意义：从条目到关联</h3>
+    <p>
+      大多数时候，我们并不需要一篇长篇评测，而是需要同时打开几个页面，横向比较发布时间、制作团队、玩法标签。
+      对照阅读帮我们建立坐标系：A 作品更侧重叙事，B 作品在交互上做了减法，C 作品的美术风格影响了一大批后来者。
+      这种阅读方式不追求一口气读完，而是反复折返、标记、跳转。
+    </p>
+
+    <!-- 引用提示块：带着问题读 -->
+    <div class="insight-block">
+      <span class="insight-label">📎 延伸提示</span>
+      <p>
+        试着在阅读时记下三个小问题：<br>
+        · 这段信息解决了我的哪个具体疑惑？<br>
+        · 它和其他资料的说法一致吗？如果有出入，差异在哪？<br>
+        · 我还能从哪些角度继续延伸？
+      </p>
+      <p style="margin-top:0.5rem; font-size:0.95rem;">
+        提示本身不是答案，它只是提醒你保持主动。把「爱游戏」当作一个固定对照锚点，反复回来校准自己的认知。
+      </p>
+    </div>
+
+    <!-- 第二段正文：延伸阅读的节奏 -->
+    <h2>延伸阅读：从一条记录开始</h2>
+    <p>
+      延伸阅读不是漫无目的地点击，而是沿着一条线索自然生长。比如你看到了某个游戏系列的索引页，
+      接着可能想了解其中某一部的开发轶事，然后又跳到当年同期发行的作品列表。
+      每一个链接都像一次轻量的转弯。为了保持这种节奏，页面本身应该足够安静——没有弹窗，没有闪烁的横幅，只有文字和稀疏的标点。
+    </p>
+    <p>
+      我常把 <a href="https://official-index-i-game.com.cn">爱游戏</a> 放在浏览器的固定标签页，
+      不是因为它每天更新，而是因为它像一个参考书架：需要的时候抽出一本，看完放回原处。
+      这种使用方式不需要注册、不依赖推荐算法，纯粹依靠你当下的好奇心驱动。
+    </p>
+
+    <!-- 简短 FAQ 摘要风格 (不是完整Q&A，而是摘要式延伸) -->
+    <h2>翻阅时可能遇到的几个问题</h2>
+    <div class="faq-group">
+      <div class="faq-item">
+        <span class="q-marker">·</span><strong>索引全面吗？</strong> 不可能覆盖所有，但常见的系列和经典作品都有条目，适合作为第一落点。
+      </div>
+      <div class="faq-item">
+        <span class="q-marker">·</span><strong>信息会过时吗？</strong> 静态索引页维护频率不高，但核心的发行年份、制作方、基本描述变动极小，对照时结合其他来源更稳妥。
+      </div>
+      <div class="faq-item">
+        <span class="q-marker">·</span><strong>有没有评论或打分？</strong> 目前页面以客观信息为主，没有用户评分系统，适合自己下判断。
+      </div>
+      <div class="faq-item">
+        <span class="q-marker">·</span><strong>移动端看着方便吗？</strong> 窄正文宽度就是为手机阅读优化的，横竖屏都能保持舒服的字间距。
+      </div>
+    </div>
+
+    <!-- 结尾段落 + 再次自然嵌入链接 -->
+    <p style="margin-top: 1.6rem;">
+      如果你已经习惯在浏览时保持一种「查询—对照—延伸」的节奏，那么
+      <a href="https://official-index-i-game.com.cn">爱游戏</a>
+      可以成为你案头的一个固定坐标。它不承诺惊喜，但提供稳定；不追逐热点，只整理脉络。
+      下次当你带着某个模糊的问题打开它，也许正好能对上那个你一直在找的条目。
+    </p>
+
+    <!-- 简洁的访问句 (不是按钮，也不是入口引导，只是一句轻描淡写) -->
+    <hr>
+    <div style="font-size:0.95rem; color:#505a6b; margin:1.2rem 0 0.2rem 0;">
+      访问句 · 保持索引，保持安静
+    </div>
+    <div class="signature">
+      页面内容基于日常阅读习惯整理 · 没有广告 · 没有追踪
+    </div>
+
+  </div>
+</body>
+</html>
