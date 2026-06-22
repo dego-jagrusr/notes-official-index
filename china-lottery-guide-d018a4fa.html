@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>七星彩 · 日常查询与对照 | china-lottery-qxc.com</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+            background: #f2f4f7;
+            color: #1e293b;
+            line-height: 1.6;
+            padding: 0 16px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 0 60px;
+        }
+
+        /* hero */
+        .hero {
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 48px 40px 36px;
+            margin-bottom: 36px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+            border: 1px solid #e5e9ef;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.4rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #0a1a2f;
+            margin-bottom: 10px;
+        }
+
+        .hero .sub {
+            font-size: 1.05rem;
+            color: #4b5563;
+            max-width: 640px;
+            margin: 0 auto 16px;
+            border-bottom: 1px solid #eef1f5;
+            padding-bottom: 20px;
+        }
+
+        .hero .tagline {
+            display: inline-block;
+            background: #eef3fa;
+            padding: 6px 18px;
+            border-radius: 40px;
+            font-size: 0.9rem;
+            color: #2c3e50;
+            border: 1px solid #dce3ec;
+        }
+
+        /* section cards */
+        .section-card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 32px 36px;
+            margin-bottom: 28px;
+            border: 1px solid #e3e8f0;
+            box-shadow: 0 1px 8px rgba(0,0,0,0.02);
+            transition: box-shadow 0.2s;
+        }
+
+        .section-card:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+        }
+
+        .section-card h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 18px;
+            color: #1b2a41;
+            border-left: 4px solid #607a9e;
+            padding-left: 16px;
+        }
+
+        .section-card p, .section-card li {
+            color: #2c3e50;
+        }
+
+        .grid-2col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 16px 0 6px;
+        }
+
+        .grid-2col .item {
+            background: #f7f9fc;
+            padding: 18px 16px;
+            border-radius: 14px;
+            border: 1px solid #e9edf4;
+        }
+
+        .grid-2col .item strong {
+            display: block;
+            font-size: 1.05rem;
+            margin-bottom: 6px;
+            color: #1f2c41;
+        }
+
+        ul.check-list {
+            list-style: none;
+            margin: 12px 0 0 0;
+        }
+
+        ul.check-list li {
+            position: relative;
+            padding-left: 24px;
+            margin-bottom: 10px;
+        }
+
+        ul.check-list li::before {
+            content: "—";
+            position: absolute;
+            left: 4px;
+            color: #6b7f99;
+        }
+
+        .faq-summary {
+            background: #f7f9fc;
+            padding: 20px 24px;
+            border-radius: 16px;
+            margin-top: 18px;
+            border-left: 3px solid #9aafc9;
+        }
+
+        .faq-summary dt {
+            font-weight: 600;
+            margin-top: 14px;
+            margin-bottom: 4px;
+            color: #1e2b3c;
+        }
+
+        .faq-summary dd {
+            color: #3d4b5e;
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+        }
+
+        .bottom-links {
+            text-align: center;
+            border-top: 1px solid #dce2ec;
+            padding-top: 32px;
+            margin-top: 16px;
+            font-size: 0.95rem;
+        }
+
+        .bottom-links a {
+            color: #2563eb;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.15s;
+        }
+
+        .bottom-links a:hover {
+            border-bottom-color: #2563eb;
+        }
+
+        .inline-link {
+            color: #1f4a9c;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid #bfd0e5;
+        }
+
+        .inline-link:hover {
+            border-bottom-color: #1f4a9c;
+        }
+
+        .footnote {
+            margin-top: 28px;
+            font-size: 0.85rem;
+            color: #5b6a7c;
+            text-align: center;
+            border-top: 1px solid #e0e6ef;
+            padding-top: 24px;
+        }
+
+        @media (max-width: 700px) {
+            .hero { padding: 32px 20px; }
+            .hero h1 { font-size: 1.8rem; }
+            .section-card { padding: 24px 18px; }
+            .grid-2col { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <!-- hero -->
+    <div class="hero">
+        <h1>七星彩 · 日常对照与延伸阅读</h1>
+        <div class="sub">围绕号码结构、位置分布与历史区间，为习惯逐期查阅的爱好者提供一份简洁的案头参考。</div>
+        <span class="tagline">从查询到理解 · 信息密度适中</span>
+    </div>
+
+    <!-- 优势区：日常对照场景 -->
+    <div class="section-card">
+        <h2>为什么需要一份对照参考</h2>
+        <p>多数时候，我们只是快速核对开奖结果、观察号码跨度或重号情况。此时一份高密度的结构化摘要，比散落各处的数字更省时。本页整合了常见对照维度：</p>
+        <div class="grid-2col">
+            <div class="item">
+                <strong>位置落点</strong>
+                每位号码在近20期的出现频率、冷温热区间，便于横向比较。
+            </div>
+            <div class="item">
+                <strong>和值 &amp; 跨度</strong>
+                和值振幅、跨度分布区间，辅助判断整体走势。
+            </div>
+            <div class="item">
+                <strong>奇偶 / 大小比</strong>
+                每期奇偶个数与大小比例，适合长期趋势观察。
+            </div>
+            <div class="item">
+                <strong>重复与斜连</strong>
+                重号、邻号、隔期斜连的统计摘要，节省手动翻查时间。
+            </div>
+        </div>
+        <p style="margin-top:12px;">你可以随时将实际开奖信息与这些参考维度进行对照，形成自己的判断逻辑。完整数据与最新开奖可通过 <a href="https://china-lottery-qxc.com" class="inline-link">七星彩</a> 获取。</p>
+    </div>
+
+    <!-- 说明区：延伸阅读与理解 -->
+    <div class="section-card">
+        <h2>延伸阅读 · 构造与常见思路</h2>
+        <p>七星彩由七位独立数字组成（每位0–9），其结构使得号码形态远比想象中丰富。以下是从日常观察中总结的几个常见延伸方向：</p>
+        <ul class="check-list">
+            <li><strong>分区对照法</strong> — 将七位拆分为前三位、中间一位、后三位，分别观察各区累加值，适合捕捉局部失衡。</li>
+            <li><strong>移位加权</strong> — 对每位赋予不同权重（如1,2,3…），计算加权和与之前周期的偏离程度，属于中等进阶用法。</li>
+            <li><strong>散度与偏度</strong> — 衡量号码在数值轴上的离散程度，长期偏小时往往伴随反转。</li>
+            <li><strong>定位振幅</strong> — 记录每一位在连续两期中的变化绝对值，振幅收敛或发散可作为参考信号。</li>
+        </ul>
+        <p style="margin-top:14px;">上述方法均基于公开历史数据，不构成任何投注建议。爱好者可以结合自身习惯选取1–2个维度深化理解。</p>
+    </div>
+
+    <!-- FAQ 摘要 -->
+    <div class="section-card">
+        <h2>常见疑问摘要</h2>
+        <dl class="faq-summary">
+            <dt>Q：哪里可以找到最近50期的完整号码？</dt>
+            <dd>A：主站提供逐期开奖列表，并支持按位筛选与走势图。你可以在 <a href="https://china-lottery-qxc.com" class="inline-link">七星彩</a> 的“开奖记录”模块中查看完整历史。</dd>
+
+            <dt>Q：走势图上的“遗漏值”如何理解？</dt>
+            <dd>A：遗漏值指某一位上某个数字未出现的期数。通常与冷热判断配合使用，但遗漏本身不预示开出概率变化。</dd>
+
+            <dt>Q：页面中的参考维度是否实时更新？</dt>
+            <dd>A：本站的对照摘要基于人工整理与固定算法，每期开奖后手动更新核心指标，并非自动数据流。如需最新一期实时结果，建议直接访问主站开奖页。</dd>
+
+            <dt>Q：和值跨度与跨度有什么区别？</dt>
+            <dd>A：和值跨度指本期与上期和值的差值绝对值；跨度通常指七位中最大号减最小号。两者观察角度不同，可同时参考。</dd>
+        </dl>
+    </div>
+
+    <!-- 底部链接 -->
+    <div class="bottom-links">
+        <p>更多内容与逐期走势 → <a href="https://china-lottery-qxc.com">七星彩</a>  ·  日常参考 · 延伸阅读</p>
+        <p style="margin-top:10px;">本站仅提供信息参考，不构成任何购买建议。请理性对待。</p>
+    </div>
+
+    <div class="footnote">
+        © 内容整理 · 基于公开数据   ·   页面仅供学习参考
+    </div>
+
+</div>
+</body>
+</html>
